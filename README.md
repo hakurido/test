@@ -46,5 +46,12 @@ node src/bot.js \
 - Simpan private key dengan aman dan jangan commit file `.env`.
 - Pastikan mint time sudah benar (UTC) agar tidak terlambat.
 
+## Dari mana mendapatkan file ABI?
+Kamu bisa mendapatkan ABI dari:
+- **Block explorer** (misalnya Etherscan) dengan membuka halaman kontrak, lalu bagian **Contract → ABI**.
+- **Repository resmi proyek** (kadang file ABI disimpan di folder `abi/` atau `artifacts/`).
+- **Build hasil compile** jika kamu punya source kontraknya (misal dari Hardhat/Foundry).
+Simpan ABI sebagai file JSON dan gunakan path-nya dengan flag `--abi`.
+
 ## Lisensi
 MIT
