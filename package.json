@@ -1,0 +1,14 @@
+{
+  "name": "eth-nft-mint-bot",
+  "version": "1.0.0",
+  "description": "CLI bot to automatically mint an NFT at a scheduled time.",
+  "main": "src/bot.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/bot.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ethers": "^6.12.1"
+  }
+}
